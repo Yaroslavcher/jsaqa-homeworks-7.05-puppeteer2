@@ -3,5 +3,3 @@ module.exports = {
     preset: "jest-puppeteer", //указываем, что будем использовать эту библиотеку
     testTimeout: 20000,
 };
-
-setupFilesAfterEnv: ['./jest-setup.js']
