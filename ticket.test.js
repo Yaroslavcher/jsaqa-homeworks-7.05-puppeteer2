@@ -21,7 +21,7 @@ test("Should book one ticket", async () => {
 });
 
 test("Should book two tickets", async () => {
-    await clickElement(page, ".buying-scheme__chair_standart:not(.buying-scheme__chair_taken)"); // click on chair
+    await clickElement(page, "div:nth-child(7) > .buying-scheme__chair_standart:not(.buying-scheme__chair_taken)");
     await clickElement(page, ".buying-scheme__chair_selected + :not(.buying-scheme__chair_taken)");   
     await clickElement(page, "button.acceptin-button");
     const actual = await getText(page, "h2.ticket__check-title");

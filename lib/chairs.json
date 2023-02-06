@@ -1,9 +1,9 @@
 [
     {
     "data": [
-        { "row": 1, "chair": 1 },
-        { "row": 1, "chair": 2 },
-        { "row": 1, "chair": 3 }
+        { "row": 7, "chair": 1 },
+        { "row": 7, "chair": 2 },
+        { "row": 7, "chair": 3 }
     ]
     },
     {
